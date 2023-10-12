@@ -1,0 +1,38 @@
+# This file was created Thu Oct 12 11:39:50 2023
+# Created by:
+#                      :-) GROMACS - gmx gyrate, 2020.4 (-:
+# 
+# Executable:   /share/apps/gromacs/2020.4/openmpi/intel/bin/gmx_mpi
+# Data prefix:  /share/apps/gromacs/2020.4/openmpi/intel
+# Working dir:  /scratch/work/courses/CHEM-GA-2671-2023fa/students/sea438/comp-lab-class-2023/Week4/gromacs
+# Command line:
+#   gmx_mpi gyrate -s step5_9.tpr -f protein_only_traj.xtc -o gyrate.xvg
+# gmx gyrate is part of G R O M A C S:
+#
+# Great Red Oystrich Makes All Chemists Sane
+#
+@    title "Radius of gyration (total and around axes)"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Rg (nm)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Rg"
+@ s1 legend "Rg\sX\N"
+@ s2 legend "Rg\sY\N"
+@ s3 legend "Rg\sZ\N"
+         0    0.715147    0.657951    0.523695    0.561885
+       100     0.70353    0.648637    0.521063    0.545594
+       200    0.707174    0.638059    0.528165    0.560458
+       300    0.708665    0.656108     0.51046     0.55979
+       400    0.712044    0.655361    0.527579    0.553331
+       500    0.712201    0.656223    0.504174    0.574143
+       600    0.722727    0.629131    0.554292    0.584485
+       700    0.724352    0.598231    0.590037    0.585957
+       800     0.72849    0.596405    0.577142    0.610413
+       900    0.717557      0.5957    0.597091     0.56427
+      1000    0.717678    0.535094    0.650618    0.566121
