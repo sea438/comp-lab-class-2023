@@ -1,9 +1,9 @@
 integrator              = md
 dt                      = 0.002
 nsteps                  = 500000
-nstxtcout               = 50000
-nstvout                 = 50000
-nstfout                 = 50000
+nstxtcout               = 10000
+nstvout                 = 10000
+nstfout                 = 10000
 nstcalcenergy           = 100
 nstenergy               = 1000
 nstlog                  = 1000
