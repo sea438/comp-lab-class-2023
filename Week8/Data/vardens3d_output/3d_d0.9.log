@@ -1,7 +1,7 @@
 LAMMPS (15 Sep 2022)
 OMP_NUM_THREADS environment is not set. Defaulting to 1 thread. (src/comm.cpp:98)
   using 1 OpenMP thread(s) per MPI task
-# 2d WCA system, random initial configuration
+# 3d WCA system, random initial configuration
 
 #variable density equal 0.5
 variable initial_temperature equal 3.0
@@ -167,20 +167,20 @@ Per MPI rank memory allocation (min/avg/max) = 3.176 | 3.176 | 3.176 Mbytes
      49000   3.0564386      1.3951213      0              5.9775405      18.418689    
      49500   2.9720783      1.3330051      0              5.7889458      17.62248     
      50000   3.0277674      1.2582731      0              5.7977066      17.14555     
-Loop time of 24.7111 on 1 procs for 50000 steps with 2048 atoms
+Loop time of 25.8793 on 1 procs for 50000 steps with 2048 atoms
 
-Performance: 1748200.517 tau/day, 2023.380 timesteps/s, 4.144 Matom-step/s
-99.7% CPU use with 1 MPI tasks x 1 OpenMP threads
+Performance: 1669288.989 tau/day, 1932.047 timesteps/s, 3.957 Matom-step/s
+99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 3.9799     | 3.9799     | 3.9799     |   0.0 | 16.11
-Neigh   | 17.886     | 17.886     | 17.886     |   0.0 | 72.38
-Comm    | 1.1376     | 1.1376     | 1.1376     |   0.0 |  4.60
-Output  | 0.0057036  | 0.0057036  | 0.0057036  |   0.0 |  0.02
-Modify  | 1.2173     | 1.2173     | 1.2173     |   0.0 |  4.93
-Other   |            | 0.4849     |            |       |  1.96
+Pair    | 4.1255     | 4.1255     | 4.1255     |   0.0 | 15.94
+Neigh   | 18.77      | 18.77      | 18.77      |   0.0 | 72.53
+Comm    | 1.1922     | 1.1922     | 1.1922     |   0.0 |  4.61
+Output  | 0.0066749  | 0.0066749  | 0.0066749  |   0.0 |  0.03
+Modify  | 1.2744     | 1.2744     | 1.2744     |   0.0 |  4.92
+Other   |            | 0.5101     |            |       |  1.97
 
 Nlocal:           2048 ave        2048 max        2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -416,20 +416,20 @@ Per MPI rank memory allocation (min/avg/max) = 3.318 | 3.318 | 3.318 Mbytes
     149000   0.12988703     0.026744902    0              0.22148031     1.1606354    
     149500   0.11563171     0.022400042    0              0.19576292     1.0244481    
     150000   0.10134877     0.018472198    0              0.17042112     0.89751498   
-Loop time of 36.9571 on 1 procs for 100000 steps with 2048 atoms
+Loop time of 38.6841 on 1 procs for 100000 steps with 2048 atoms
 
-Performance: 2337844.311 tau/day, 2705.838 timesteps/s, 5.542 Matom-step/s
+Performance: 2233475.251 tau/day, 2585.041 timesteps/s, 5.294 Matom-step/s
 99.6% CPU use with 1 MPI tasks x 1 OpenMP threads
 
 MPI task timing breakdown:
 Section |  min time  |  avg time  |  max time  |%varavg| %total
 ---------------------------------------------------------------
-Pair    | 7.0769     | 7.0769     | 7.0769     |   0.0 | 19.15
-Neigh   | 24.853     | 24.853     | 24.853     |   0.0 | 67.25
-Comm    | 1.7456     | 1.7456     | 1.7456     |   0.0 |  4.72
-Output  | 0.026955   | 0.026955   | 0.026955   |   0.0 |  0.07
-Modify  | 2.4264     | 2.4264     | 2.4264     |   0.0 |  6.57
-Other   |            | 0.8278     |            |       |  2.24
+Pair    | 7.3443     | 7.3443     | 7.3443     |   0.0 | 18.99
+Neigh   | 26.065     | 26.065     | 26.065     |   0.0 | 67.38
+Comm    | 1.8275     | 1.8275     | 1.8275     |   0.0 |  4.72
+Output  | 0.030085   | 0.030085   | 0.030085   |   0.0 |  0.08
+Modify  | 2.544      | 2.544      | 2.544      |   0.0 |  6.58
+Other   |            | 0.8733     |            |       |  2.26
 
 Nlocal:           2048 ave        2048 max        2048 min
 Histogram: 1 0 0 0 0 0 0 0 0 0
@@ -442,4 +442,4 @@ Total # of neighbors = 9198
 Ave neighs/atom = 4.4912109
 Neighbor list builds = 28264
 Dangerous builds = 0
-Total wall time: 0:01:01
+Total wall time: 0:01:04

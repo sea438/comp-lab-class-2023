@@ -1,8 +1,8 @@
 #!/bin/bash
 
-densities=('0.8' '0.9' '1.0' '1.1' '1.2' '1.3' '1.4' '1.5')
+densities=('0.8' '0.9' '1.0' '1.1' '1.2' '1.3' '1.4' '1.48')
 
-input_file="../Inputs/3dWCA.in"
+input_file="../../Inputs/3dWCA.in"
 
 for density in "${densities[@]}"; do
     log_file="3d_d${density}.log"
