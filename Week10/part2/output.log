@@ -1,0 +1,36 @@
+2023-12-03:14:33:18,243 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:33:18,246 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=48.98669035916571
+2023-12-03:14:33:19,981 INFO     [psi4.driver.driver:502] Return energy(): 0.0006957300961349553
+2023-12-03:14:33:20,7 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:33:20,21 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=42.863354064269984
+2023-12-03:14:33:21,863 INFO     [psi4.driver.driver:502] Return energy(): 2.945290444466352e-05
+2023-12-03:14:33:21,891 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:33:21,895 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=38.10075916823999
+2023-12-03:14:33:23,598 INFO     [psi4.driver.driver:502] Return energy(): -4.311039041522859e-05
+2023-12-03:14:33:23,624 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:33:23,627 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=34.290683251416
+2023-12-03:14:33:25,299 INFO     [psi4.driver.driver:502] Return energy(): -3.403394617811998e-05
+2023-12-03:14:33:25,325 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:33:25,328 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=31.173348410378185
+2023-12-03:14:33:26,996 INFO     [psi4.driver.driver:502] Return energy(): -2.101964529603392e-05
+2023-12-03:14:33:27,23 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:33:27,26 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=28.575569376180002
+2023-12-03:14:33:28,710 INFO     [psi4.driver.driver:502] Return energy(): -1.2711307522885275e-05
+2023-12-03:14:37:09,113 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:37:09,119 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=48.98669035916571
+2023-12-03:14:37:10,845 INFO     [psi4.driver.driver:502] Return energy(): 0.0006957300961349553
+2023-12-03:14:37:10,871 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:37:10,874 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=42.863354064269984
+2023-12-03:14:37:12,628 INFO     [psi4.driver.driver:502] Return energy(): 2.945290444466352e-05
+2023-12-03:14:37:12,654 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:37:12,664 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=38.10075916823999
+2023-12-03:14:37:14,359 INFO     [psi4.driver.driver:502] Return energy(): -4.311039041522859e-05
+2023-12-03:14:37:14,385 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:37:14,388 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=34.290683251416
+2023-12-03:14:37:16,48 INFO     [psi4.driver.driver:502] Return energy(): -3.403394617811998e-05
+2023-12-03:14:37:16,74 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:37:16,77 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=31.173348410378185
+2023-12-03:14:37:17,727 INFO     [psi4.driver.driver:502] Return energy(): -2.101964529603392e-05
+2023-12-03:14:37:17,752 INFO     [psi4.driver.task_planner:283] PLANNING Atomic:  keywords={'DF_INTS_IO': 'NONE', 'SAPT__D_CONVERGENCE': 1e-09, 'SCF__D_CONVERGENCE': 1e-08, 'E_CONVERGENCE': 1e-08, 'SAPT__E_CONVERGENCE': 1e-09, 'FREEZE_CORE': '1', 'SCF__INTS_TOLERANCE': 1e-12, 'PRINT': 2, 'SAPT__SAPT_LEVEL': 'SAPT0', 'SCF_TYPE': 'DF', 'function_kwargs': {}}
+2023-12-03:14:37:17,756 INFO     [psi4.driver.driver:499] Compute energy(): method=sapt0, basis=jun-cc-pvdz, molecule=default, nre=28.575569376180002
+2023-12-03:14:37:19,412 INFO     [psi4.driver.driver:502] Return energy(): -1.2711307522885275e-05
